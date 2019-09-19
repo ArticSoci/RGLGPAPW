@@ -1,0 +1,112 @@
+.inicio {
+    background-image: url('../Img/hImg.jpeg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100px;
+}
+
+.navbar a {
+    font-size: 18px;
+}
+
+.profile-pic {
+    margin: 10px;
+}
+
+.carousel-item img {
+    max-width: 100;
+    height: auto;
+}
+
+.carousel-item h5 {
+    font-size: 25px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background-image: url('../Img/pDestaca.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.contenedor div {
+    float: left;
+    margin: 5px;
+}
+
+.card {
+    background-color: #85fbff;
+}
+
+.contenedor .card .btn {
+    background-color: #ffe185;
+    border: none;
+    color: black;
+}
+
+
+/* Registro */
+
+.fotillo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* Admin */
+
+.img-muestra {
+    padding: 1cm;
+}
+
+.foto-producto {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* Producto detalle */
+
+.datos-detalle {
+    padding-top: 20px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.contenedor-comentarios {
+    margin: 0 auto 0 auto;
+}
